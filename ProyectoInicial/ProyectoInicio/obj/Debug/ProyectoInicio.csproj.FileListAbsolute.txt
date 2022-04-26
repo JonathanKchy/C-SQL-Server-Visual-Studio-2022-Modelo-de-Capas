@@ -1,0 +1,10 @@
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.csproj.AssemblyReference.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.csproj.SuggestedBindingRedirects.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.Properties.Resources.resources
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.csproj.GenerateResource.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.csproj.CoreCompileInputs.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\ProyectoInicio.exe.config
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\ProyectoInicio.exe
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\ProyectoInicio.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.exe
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.pdb
