@@ -9,13 +9,13 @@ namespace AccesoDatos.DataBase
         #region variables privadas
         //permite crear la conexión con la base de datos
         private SqlConnection _objSqlConnection;
-        //permite hacer una lectura de datos "select"
+        //permite hacer una lectura de datos "select" (pasa datos al DataSet, utiliza un command)
         private SqlDataAdapter _objSqlDataAdapter;
         //permite crear, actualizar y borrar datos
         private SqlCommand _objSqlCommand;
-        //lista de tablas en respuesta a SqlDataAdapter
+        //lista de tablas en respuesta a SqlDataAdapter (contenedor de tablas)
         private DataSet _dsResultados;
-        //tabla para pasar a SqlAdapter y AqlCommand
+        //tabla para pasar a SqlAdapter y AqlCommand (elemento del DataSet)
         private DataTable _dtParametros;
         //nombre de la tabla es cuando reciba los DataSet (Resultados)
         private string _nombreTabla;
@@ -59,7 +59,7 @@ namespace AccesoDatos.DataBase
         {
             switch (ObjDataBase.NombreDB)
             {
-                //cpnexión a base de datos
+                //conexión a base de datos
                 case "DB_BasePruebas":
                     ObjDataBase.ObjSqlConnection = new SqlConnection(Properties.Settings.Default.cadenaConexión_DB_BasePruebas);
                     break;
