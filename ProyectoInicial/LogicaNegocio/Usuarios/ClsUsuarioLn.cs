@@ -114,7 +114,7 @@ namespace LogicaNegocio.Usuarios
                     {
                         foreach (DataRow item in ObjUsuario.DtResultado.Rows)
                         {
-                            ObjUsuario.IdUsuario = Convert.ToByte(item["IdUsuario"].ToString());
+                            ObjUsuario.IdUsuario = Convert.ToByte(item["IdUsuarios"].ToString());
                             ObjUsuario.Nombre = item["Nombre"].ToString();
                             ObjUsuario.Apellido1 = item["Apellido1"].ToString();
                             ObjUsuario.Apellido2 = item["Apellido2"].ToString();

@@ -36,5 +36,92 @@ namespace ProyectoInicio.Principal
         {
 
         }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            ObjUsuario=new ClsUsuario()
+            {
+                Nombre=TxtNombre.Text,
+                Apellido1=TxtApellido1.Text,
+                Apellido2=TxtApellido2.Text,
+                FechaNacimiento=DtpFechaNacimiento.Value,
+                Estado=ChkEstado.Checked
+            };
+
+            ObjUsuarioLn.Create(ref ObjUsuario);
+
+            if (ObjUsuario.MensajeError==null)
+            {
+                MessageBox.Show("El ID: "+ObjUsuario.ValorScalar+", fue agregado correctamente");
+                CargarListaUsuarios();
+            }
+            else
+            {
+                MessageBox.Show(ObjUsuario.MensajeError, "Mensaje de Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnActualizar_Click(object sender, EventArgs e)
+        {
+            ObjUsuario = new ClsUsuario()
+            {
+                IdUsuario=Convert.ToByte(LblUsuario.Text),
+                Nombre = TxtNombre.Text,
+                Apellido1 = TxtApellido1.Text,
+                Apellido2 = TxtApellido2.Text,
+                FechaNacimiento = DtpFechaNacimiento.Value,
+                Estado = ChkEstado.Checked
+            };
+
+            ObjUsuarioLn.Update(ref ObjUsuario);
+
+            if (ObjUsuario.MensajeError == null)
+            {
+                MessageBox.Show("El  fue actualizado correctamente");
+                CargarListaUsuarios();
+            }
+            else
+            {
+                MessageBox.Show(ObjUsuario.MensajeError, "Mensaje de Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void DgvUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                if (DgvUsuarios.Columns[e.ColumnIndex].Name == "Editar")
+                {
+                    ObjUsuario = new ClsUsuario()
+                    {
+                        IdUsuario = Convert.ToByte(DgvUsuarios.Rows[e.RowIndex].Cells["IdUsuarios"].Value.ToString())
+                    };
+                    ObjUsuarioLn.Read(ref ObjUsuario);
+                    TxtNombre.Text = ObjUsuario.Nombre;
+                    TxtApellido1.Text = ObjUsuario.Apellido1;
+                    TxtApellido2.Text = ObjUsuario.Apellido2;
+                    DtpFechaNacimiento.Value = ObjUsuario.FechaNacimiento;
+                    ChkEstado.Checked = ObjUsuario.Estado;
+                    LblUsuario.Text = ObjUsuario.IdUsuario.ToString();
+                }
+             
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            ObjUsuario = new ClsUsuario()
+            {
+                IdUsuario = Convert.ToByte(LblUsuario.Text)
+            };
+            ObjUsuarioLn.Delete(ref ObjUsuario);
+            CargarListaUsuarios();
+        }
     }
 }
