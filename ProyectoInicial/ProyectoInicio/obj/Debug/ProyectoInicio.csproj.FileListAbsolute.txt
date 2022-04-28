@@ -8,3 +8,12 @@ E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial
 E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\ProyectoInicio.pdb
 E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.exe
 E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\Entidades.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\LogicaNegocio.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\AccesoDatos.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\Entidades.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\LogicaNegocio.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\AccesoDatos.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\bin\Debug\AccesoDatos.dll.config
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.Principal.FrmUsuario.resources
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\ProyectoInicio\obj\Debug\ProyectoInicio.csproj.CopyComplete

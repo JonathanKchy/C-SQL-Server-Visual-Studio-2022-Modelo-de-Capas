@@ -1,0 +1,12 @@
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\AccesoDatos.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\Entidades.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\bin\Debug\Entidades.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

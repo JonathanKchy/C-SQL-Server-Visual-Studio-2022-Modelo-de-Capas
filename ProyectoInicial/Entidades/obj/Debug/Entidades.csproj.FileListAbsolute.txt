@@ -1,0 +1,6 @@
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\bin\Debug\Entidades.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\bin\Debug\Entidades.pdb
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\obj\Debug\Entidades.dll
+E:\classs\C# + SQL Server + Visual Studio 2022 + Modelo de Capas\ProyectoInicial\Entidades\obj\Debug\Entidades.pdb
